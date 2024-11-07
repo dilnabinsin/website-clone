@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family:  sans-serif;
+}
+
+.header1{ 
+    display: flex;
+     align-items: center; 
+    justify-content: space-between;
+    padding: 0px 100px;
+    position: relative;
+    background-color: white;
+}
+#header{
+    display: flex;
+     align-items: center; 
+}
+#navbar {
+    position:relative;
+    width: 100vw;
+    height: 60px;
+    background-color: white;
+}
+#navbar img {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+    width: 69px;
+    height: 24px;
+}
+
+.container1{
+    background-image: url("image/Screenshot.png");
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.content1{
+   /* position: relative; */
+   color: white;
+   padding: 50px;
+   /* background: linear-gradient(to bottom, rgb(49, 49, 49), rgba(255, 255, 255, 0)); */
+}
+#content{
+    width: 38%;
+    
+}
+#content h1{
+    font-size: 45px;
+    font-weight: lighter;
+}
+#content p{
+    font-size: 23px;
+    padding: 15px 0;
+    color: #dddddd;
+    line-height: 30px;
+}
+
+.button1 button{
+    /* height: 50px;
+    width: 220px; */
+    padding: 18px 36px;
+    font-size: 16px;
+    margin-right: 4px;
+    margin-top:35.5% ;
+    transition: 0.5s;
+    background-color: white;
+    border: 1px solid white;
+}
+.button1 button:hover{
+    background-color: rgb(173, 173, 173);
+    border: 1px solid rgb(173, 173, 173);
+}
+
+
+.container2{
+    background-color: white;
+}
+.models{
+    position: relative;
+    background-color: white;
+    /* margin-top: 360px; */
+    padding-bottom: 70px;
+}
+.models h2{
+    padding: 15px 0 30px 50px ;
+    font-size: 18px;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+.modeling{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.modeling p{
+    text-align: center;
+    font-size: 18px;
+}
+.modeling a{
+    color: rgb(52, 52, 52);
+    text-decoration: none;
+}
+.modeling img{
+    height: 90px;
+    width: 220px;
+}
+#img{
+    transition: 0.2s;
+}
+#img:hover{
+    transform: scale(1.03);
+    text-decoration: underline; 
+    text-decoration-color: rgb(52, 52, 52);
+}
+#img p:hover{
+    font-weight: bold;
+}
+.celebration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 70px;
+}
+#celebrationimage{
+    width: 50%;
+    margin-right: 50px;
+}
+#content{
+    width:55%;
+    margin-left:30px;
+}
+.celebration img{
+    height: 570px;
+    width: 570px;
+}
+.celebration #content{
+    font-weight: 400;
+    width: 100%;
+    margin-right:200px;
+    font-style: normal;
+    font: optional;
+   
+    
+}
+#content button{
+    /* height: 50px;
+    width: 220px; */
+    font-size: 16px;
+    padding: 16px 30px;
+ 
+    background-color: white;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+
+}
+
+.container3{
+    
+    background: url("image/Audi-bg2.jpg") ;
+    height:170vh;
+    background-position:center;
+    
+    background-attachment:scroll;
+    
+}
+.content3{
+    height: 370px;
+    width: 750px;
+    padding: 50px;
+    font-size: 20px;
+    justify-content: center;
+    transform: translateX(60px) translateY(300px);
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.content3 p{
+    font-size: 18px;
+    padding: 25px 0;
+    line-height: 25px;
+    color: rgb(114, 111, 111);
+}
+.button3 button{
+    
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
+.button4 button{
+    
+    padding: 15px 30px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 1px solid black;
+    margin-left: 3px;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+}
+.container4 img{
+    height: 550px;
+    
+}
+.locate{
+    background-color: black;
+    color: white;
+    height: 560px;
+    width: 800px;
+    padding:0 60px ;
+}
+.locate h1{
+   
+    margin-top: 14%;
+}
+.locate button{
+    /* height: 50px;
+    width: 220px; */
+    padding: 15px 70px;
+    margin-top: 400px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.container5{
+    display: flex;
+    margin: 50px 0;
+    
+}
+.connect{
+    background-color: black;
+    height: 120vh;
+    width: 50%;
+   padding: 0 60px;
+   
+}
+
+.connect p{
+    color: white;
+    font-size: 30px;
+    line-height: 50px;
+  
+     margin-top: 50%;
+}
+#connectimg{
+    height: 120vh;
+    width: 45%;
+    background-image: url("image/myaudiconnect.jpg");
+    background-position: center;
+}
+.container5 img{
+    height: 120vh;
+    width: 85vh;
+}
+.button5 button{
+
+    padding: 17px 40px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+}
+.button6 button{
+   
+    padding: 17px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgb(255, 255, 255);
+    margin-left: 3px;
+   
+} 
+#container6{
+    display: flex;
+    margin: 30px 0;
+}
+
+.container6{
+    font-size: 20px;
+    margin: 60px;
+}
+.container6 img{
+    height: 260px;
+    width: 460px;
+    margin-right: 5px;
+}
+.container6 a,p{
+    text-decoration: none;
+    color: black;
+    width: 50%;
+    font-size: 18px;
+    margin-bottom: 10px;
+    
+}
+.container6 a:hover{
+    color: rgb(59, 59, 59);
+}
+.container7{
+    font-size: 20px;
+    margin: 60px;
+}
+#container7{
+    display: flex;
+    margin: 30px 0;
+}
+.container7 img{
+    height: 260px;
+    width: 460px;
+    margin-right: 5px;
+}
+.container7 a,p{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-weight: lighter;
+}
+.container8 {
+    background-color: black;
+    color : white;
+    padding: 30px 100px;
+}
+.top{
+    padding-left: 150vh;
+}
+.top a{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+}
+.container8 p{
+    background-color: black;
+    color : white;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+#lists p{
+    font-size: 21px;
+    margin-bottom: 25px;
+}
+.lists div{
+    font-size: 13px;
+    padding: 8px 0;
+}
+.lists a{
+    color: white;
+    text-decoration: none;
+   
+}
+.socialicon{
+    display: flex;
+    align-items: center;
+    padding-left: 139vh;
+}
+.socialicon img{
+    /* background-color: white; */
+    /* height: 20px;
+    width: 20px; */
+    margin: 10px;
+}
+.container9 p{
+    font-size: 10px;
+    line-height: 20px;
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 20px 0;
+    width: 45%;
+    
+}
+.bottom a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    margin-right:  15px ;
+}
